@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
 #content
 {
     max-width: 1600px;
@@ -5,12 +6,14 @@
 
 nav a{
     text-align: center;
-    color: #CCD5AE;
+    color: black;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4{
     text-align: center;
+    font-family: "Roboto", "Helvetica", sans-serif; 
 }
 
 .button-box{
@@ -19,6 +22,7 @@ nav a{
 
 main section{
     text-align: center;
+    font-family: "Roboto", "Helvetica", sans-serif; 
 }
 
 #background {
@@ -29,6 +33,7 @@ main section{
 body{
     background-color: #8ECAE6;
     margin: 0;
+    padding: 0;
 }
 
 header{
@@ -45,6 +50,10 @@ nav a:hover
     background-color: #CCD5AE;
     color: #023047;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -58,19 +67,34 @@ nav a:hover
 
 .msg{
     background-color: #023047;
+    line-height: 1.5em;
+    font-size: .8em;
+    padding: 35px;
 }
 
 footer{
-    background-color: #023047;
+    background-color: #023047; 
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
+footer .social img
+{
+    padding-top: 15px;
+}
 
 .home-title{
     color: #023047;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
     color: aquamarine;
+}
+
+h2{
+    margin: 0;
 }
 
 .msg h2{
@@ -79,6 +103,7 @@ h4{
 
 .msg p{
     color: bisque;
+    padding-bottom: 15px;
 }
 
 footer h3{
@@ -96,6 +121,7 @@ footer a:hover{
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img{
@@ -104,4 +130,21 @@ footer a:hover{
 
 .logo{
     width: 80px;
+}
+
+#logo-link{
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card
+{
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid black;
+}
+
+main section image{
+    box-sizing: border-box;
 }
