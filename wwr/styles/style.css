@@ -269,3 +269,19 @@ main section image{
         margin-top: 25px;
     }
 }
+
+
+.blog-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.main-picture{
+    height: 250px;
+    width: 350px;
+}
+
+.rule{
+    text-align: left;      
+}
