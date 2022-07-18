@@ -70,7 +70,6 @@ img{
   margin-right:20px
 }
 .site {
-  padding: 20em 0;
   text-align: center;
   background-color: #efefef;
   font-size: .8em;
@@ -104,17 +103,6 @@ img{
 
 * {
   font-family: Open Sans;
-}
-
-section {
-  width: 100%;
-  display: inline-block;
-  background: #333;
-  height: 50vh;
-  text-align: center;
-  font-size: 22px;
-  font-weight: 700;
-  text-decoration: underline;
 }
 
 .footer-distributed{
