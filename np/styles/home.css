@@ -16,7 +16,7 @@ body {
   font-size: 1.3em;
 }
 
-header {
+.main-header {
   height: 100%;
   position: relative;
   overflow: hidden;
