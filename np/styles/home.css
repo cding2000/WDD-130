@@ -217,7 +217,7 @@ img{
   padding-right: 5px;
 }
 
-.footer-distributed .footer-links .link-1:before {
+.footer-distributed .footer-links{
   content: none;
 }
 
