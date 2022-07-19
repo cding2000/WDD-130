@@ -22,9 +22,7 @@ main {
   }
   
   .masonry {
-    -webkit-column-count: 2;
     column-count: 2;
-    -webkit-column-gap: 0;
     column-gap: 0;
   }
   
@@ -41,7 +39,6 @@ main {
   
   .block {
     position: relative;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     max-width: 600px;
   }
@@ -90,8 +87,6 @@ main {
     right: 50px;
     padding: 70px 48px;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
   }
   
